@@ -13,3 +13,10 @@ OTCv8 Features that need to be enabled in order to use this:
     g_game.enableFeature(GameIdleAnimations)
     g_game.enableFeature(GamePlayerMounts)
     g_game.enableFeature(GameSpritesU32)
+
+NOTE: To avoid problems with map saving make sure to change in your rme files under data/clients.xml
+
+from
+<otb client="8.60" version="3" id="20"/>
+to
+<otb client="8.60" version="3" id="64"/>
