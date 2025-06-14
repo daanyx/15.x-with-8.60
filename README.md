@@ -17,6 +17,6 @@ OTCv8 Features that need to be enabled in order to use this:
 NOTE: To avoid problems with map saving make sure to change in your rme files under data/clients.xml
 
 from
-# <otb client="8.60" version="3" id="20"/>
+otb client="8.60" version="3" id="20"
 to
-# <otb client="8.60" version="3" id="64"/>
+otb client="8.60" version="3" id="64"
