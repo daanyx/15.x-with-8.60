@@ -11,8 +11,10 @@ OTCv8 Features that need to be enabled in order to use this:
     
     g_game.enableFeature(GameEnhancedAnimations)
     g_game.enableFeature(GameIdleAnimations)
-    g_game.enableFeature(GamePlayerMounts)
     g_game.enableFeature(GameSpritesU32)
+
+    Active this only when u got mount system in your source.
+    g_game.enableFeature(GamePlayerMounts)
 
 NOTE: To avoid problems with map saving make sure to change in your rme files under data/clients.xml
 
